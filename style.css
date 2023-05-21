@@ -164,27 +164,31 @@ footer p {
  }
 }
  /*------- form -------*/
-@media all and (min-width:980px) {
+@media all and (min-width:480px) {
  .form-container {
   display: flex;
   justify-content: space-between;
 }
 
+form input, form select {
+  width: 100%;
+}
  .spacing {
   display: flex;
   flex-direction: column;
-  margin-right: 20px
+  margin-right: 20px;
+  width: 20%;
  }
 
  .button {
   display: flex;
   justify-content: center;
-  max-width: 200px;
  }
 
  .button-container {
   display: flex;
   justify-content: flex-end;
+  width: 20%;
  }
 }
 /*-------about-------*/
